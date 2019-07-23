@@ -1,0 +1,15 @@
+# Program to check the Vowel
+
+def checkVowel (str):  
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    if len(str) == 1:
+        if str.lower() in vowels:
+            print 'true, Character is Vowel'
+        else:
+            print 'false, Character is consonent'
+        
+    else:
+        print 'Please pass correct character'
+    
+#calling the function   
+checkVowel('a')   
