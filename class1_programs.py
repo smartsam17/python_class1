@@ -15,3 +15,11 @@ def reverstring(name):
 
 reversName =  reverstring('Sachin Gupta')  
 print(reversName)
+
+
+#volume of sphere with diameter 12
+
+pi=22/7
+radius = 12/2
+volume = (4 / 3) * pi * radius * radius * radius
+print("Volume is: ", volume)
