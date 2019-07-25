@@ -5,3 +5,13 @@ for i in range(2000, 3201):
     if i%7 == 0 and i%5 != 0 :
         numbers.append(str(i))
 print (",".join(numbers))
+
+
+
+# Print the first name and last name in reverse order
+
+def reverstring(name):
+    return name[::-1]
+
+reversName =  reverstring('Sachin Gupta')  
+print(reversName)
