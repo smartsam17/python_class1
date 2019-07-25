@@ -23,3 +23,13 @@ pi=22/7
 radius = 12/2
 volume = (4 / 3) * pi * radius * radius * radius
 print("Volume is: ", volume)
+
+# take a comma separated number and genarate the list
+inp = '1,2,3,4,5,6'
+separator = ','
+formattedInput = inp.split (",")
+listFianl = []
+for i in formattedInput:
+        listFianl.append(int(i))
+print(listFianl)    
+
