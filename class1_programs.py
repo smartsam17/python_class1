@@ -31,5 +31,21 @@ formattedInput = inp.split (",")
 listFianl = []
 for i in formattedInput:
         listFianl.append(int(i))
-print(listFianl)    
+print(listFianl)   
+
+#/////////////////////////////////////
+
+limit = 9
+for i in range(0,limit):
+        print ('\n')
+        
+        if i > limit/2:
+            j = limit-i-1
+            i = j
+        for j in range(0,i+1):
+            print('*' ,end=' ')
+            
+            
+            
+
 
