@@ -45,6 +45,8 @@ for i in range(0,limit):
         for j in range(0,i+1):
             print('*' ,end=' ')
             
+#////////////////////////////////////
+print('WE, THE PEOPLE OF INDIA,\n\t having solemnly resolved to constitute India into a SOVEREIGN,! \n\t\t SOCIALIST SECULAR, DEMOCRATIC REPUBLIC \n\t\t and to secure to all its citizens')
             
             
 
